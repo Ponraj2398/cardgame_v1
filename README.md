@@ -4,7 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+Step1: Install Dependencies: Run the following command to install all the necessary packages:
+
+### `npm install`
+
+Step2: In the project directory, you can run:
 
 ### `npm start`
 
@@ -13,6 +17,30 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+The project includes the following libraries:
+
+### Material-UI:
+
+   * UI components for building consistent user interfaces.
+   * Install command (already included in package.json):
+
+### `npm install @mui/material @emotion/react @emotion/styled`
+
+### React Bootstrap:
+
+   * Styling framework for responsive layouts.
+   * Install command (already included in package.json):
+
+### `npm install react-bootstrap bootstrap`
+
+### SweetAlert2:
+
+   * A library for creating alert popups with customizable styling.
+   * Install command (already included in package.json):
+
+## `npm install sweetalert2`
 
 ### `npm test`
 
